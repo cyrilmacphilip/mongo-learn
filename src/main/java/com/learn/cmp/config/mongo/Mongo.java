@@ -16,6 +16,6 @@ public class Mongo {
     }
 
     private ConnectionString mongoConnectionString() {
-        return new ConnectionString("mongodb+srv://cyril-test:98kueb27t9O9RZfb@cluster0.55em1.mongodb.net/myFirstDatabase");
+        return new ConnectionString("mongodb+srv://cyril-test:<password>@cluster0.55em1.mongodb.net/myFirstDatabase");
     }
 }
